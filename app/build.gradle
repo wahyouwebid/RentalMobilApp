@@ -1,0 +1,65 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '27.0.3'
+
+    defaultConfig {
+        applicationId "com.rental_apps.android.rental_apps"
+        minSdkVersion 17
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+    sourceSets {
+        main {
+            res.srcDirs =
+                    [
+
+                            'src/main/res/layouts/admin',
+                            'src/main/res/layouts/user',
+                            'src/main/res/layouts/main_menu',
+                            'src/main/res/layouts',
+                            'src/main/res',
+                    ]
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    androidTestImplementation 'junit:junit:4.12'
+    implementation 'com.android.support:appcompat-v7:25.3.1'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation 'junit:junit:4.12'
+    implementation 'fr.avianey.com.viewpagerindicator:library:2.4.1.1@aar'
+    implementation 'com.android.support:design:25.3.1'
+    //CardView
+    implementation 'com.android.support:cardview-v7:25.0.0'
+    //GSON wiith Retrofit
+    implementation 'com.google.code.gson:gson:2.6.2'
+    implementation 'com.squareup.retrofit2:retrofit:2.1.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+    implementation 'com.android.support:recyclerview-v7:25.3.1'
+    //Toasty
+    implementation 'com.github.GrenderG:Toasty:1.2.5'
+    //Shared Preferenced
+    implementation 'com.pixplicity.easyprefs:library:1.9.0'
+    implementation 'br.com.liveo:navigationdrawer-material:2.5.1'
+    implementation 'cn.pedant.sweetalert:library:1.3'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+    implementation 'com.mikepenz:itemanimators:1.0.0@aar'
+    //sliding-root-nav
+    //    compile 'com.yarolegovich:sliding-root-nav:1.1.0'
+    //garlandview
+    //    compile 'com.ramotion.garlandview:garland-view:0.1.0'
+}

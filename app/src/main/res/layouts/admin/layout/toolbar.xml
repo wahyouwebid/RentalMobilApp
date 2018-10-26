@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/maintoolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    >
+
+
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/leftarrowarrows"-->
+        <!--android:layout_marginLeft="20dp"/>-->
+
+    <!--<customfonts.MyTextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Edit"-->
+        <!--android:textSize="20dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:gravity="bottom"-->
+        <!--android:textColor="#fff"/>-->
+
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="SAVE"-->
+        <!--android:textSize="14dp"-->
+        <!--android:layout_gravity="right"-->
+        <!--android:layout_marginRight="20dp"-->
+        <!--android:textColor="#fff"/>-->
+
+
+
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000">
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg_drawer"
+
+            android:alpha="0.8" />
+
+
+        <include layout="@layout/toolbar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/userPhoto"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/camera_icon"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="5dp"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <customfonts.MyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NAME"
+                        android:textSize="16dp"
+                        android:textColor="#fff"
+                        android:layout_marginTop="40dp"
+                        android:padding="15dp"
+                        />
+
+                    <customfonts.MyTextView
+                        android:id="@+id/name"
+                        android:layout_weight="1.3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:textSize="20dp"
+                        android:textColor="#fff"
+                        android:background="#00000000"
+                        android:hint="Muhajir Shiddiq Al Faruqi"
+                        android:textColorHint="#fff"
+                        android:paddingTop="5dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.001dp"
+                    android:background="#fff"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <customfonts.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Address"
+                        android:textColor="#fff"
+                        android:textSize="18dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"/>
+                    <customfonts.MyTextView
+                        android:id="@+id/address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jidhar apna CRUSH hai , udhar hich sala RUSH hai and filhaal timepass k liye only CANDYCRUSH he."
+                        android:textColorHint="#fff"
+                        android:background="#00000000"
+                        android:textColor="#fff"
+                        android:textSize="14dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"/>
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.001dp"
+                    android:background="#fff"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <customfonts.MyTextView
+            android:layout_width="0dp"
+            android:layout_weight="0.3"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="14dp"
+            android:layout_marginLeft="15dp"
+            android:padding="20dp"/>
+        <customfonts.MyTextView
+            android:id="@+id/email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="textEmailAddress"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:background="#00000000"
+            android:textAlignment="textEnd"
+            />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#ACACAC"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <customfonts.MyTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="No Telp"
+            android:textSize="14dp"
+            android:padding="20dp"
+            android:layout_marginLeft="15dp"/>
+
+
+        <customfonts.MyTextView
+            android:id="@+id/notelp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:padding="20dp"
+            android:textAlignment="textEnd"
+            />
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#ACACAC"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <customfonts.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Gender"
+            android:textSize="14dp"
+            android:layout_marginLeft="15dp"
+            android:padding="20dp"/>
+
+        <customfonts.MyTextView
+            android:id="@+id/jenis_kelamin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14dp"
+            android:padding="20dp"
+            android:textAlignment="textEnd"
+            />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="#ACACAC"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <customfonts.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Status"
+            android:textSize="14dp"
+            android:layout_marginLeft="15dp"
+            android:padding="20dp"/>
+
+        <customfonts.MyTextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="14dp"
+            android:padding="20dp"
+            android:textAlignment="textEnd"
+            />
+
+
+    </LinearLayout>
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0.1dp"-->
+        <!--android:background="#ACACAC"/>-->
+
+
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Sync With"-->
+        <!--android:textColor="#868686"-->
+        <!--android:textSize="16dp"-->
+        <!--android:background="#f0f0f4"-->
+        <!--android:paddingTop="10dp"-->
+        <!--android:paddingBottom="10dp"-->
+        <!--android:paddingLeft="22dp"/>-->
+
+</LinearLayout>
+

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Bali RentCar</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="pesanan_baru">Pesanan Masuk</string>
+    <string name="pesanan_proses">Pesanan Di Proses</string>
+    <string name="pesanan_selesai">Pesanan Selesai</string>
+    <string name="mobil">Mobil</string>
+    <string name="setting">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="admin">Admin</string>
+    <string name="user">User</string>
+    <string name="lorem_ipsum">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</string>
+    <string name="name"><b>Nike Flyknit Air Max</b></string>
+    <string name="wishlist"><u>Add to Wishlist</u></string>
+</resources>

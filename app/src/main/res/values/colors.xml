@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#1999D7</color>
+    <color name="colorPrimaryDark">#128bc6</color>
+    <color name="colorPrimaryLight">#1999D7</color>
+    <color name="bgTransaksiRed">#da4749</color>
+    <color name="colorAccent">#d75c1a</color>
+    <color name="colorAccentDark">#d75c1a</color>
+    <color name="colorAccentLight">#FEEAAB</color>
+
+    <color name="grey_hard">#96989A</color>
+    <color name="grey_medium">#BDBFC1</color>
+    <color name="grey_soft">#F5F5F5</color>
+    <color name="grey_mdark">#424242</color>
+    <color name="grey_dark">#332C2B</color>
+
+    <color name="grey_bg">#E6E6E6</color>
+    <color name="icon_drawer_color">#727272</color>
+    <color name="drawer_header_bg">#568AB7</color>
+
+    <color name="marker_primary">#1F59A6</color>
+    <color name="marker_secondary">#EE792A</color>
+
+    <color name="dark_overlay">#73000000</color>
+    <color name="dark_soft_overlay">#33000000</color>
+    <color name="grid_title_bg">#FFFFFF</color>
+
+    <color name="white">#FFFFFF</color>
+
+
+    <string-array name="arr_main_color_name">
+        <item >Default</item>
+        <item >Red</item>
+        <item >Pink</item>
+        <item >Purple</item>
+        <item >Deep Purple</item>
+
+        <item >Indigo</item>
+        <item >Blue</item>
+        <item >Light Blue</item>
+        <item >Cyan</item>
+        <item >Teal</item>
+
+        <item >Green</item>
+        <item >Orange</item>
+        <item >Deep Orange</item>
+        <item >Brown</item>
+        <item >Blue Grey</item>
+    </string-array>
+
+    <string-array name="arr_main_color_code">
+        <item >#568AB7</item>
+        <item >#F44336</item>
+        <item >#EC407A</item>
+        <item >#1999D7</item>
+        <item >#1999D7</item>
+
+        <item >#1999D7</item>
+        <item >#2196F3</item>
+        <item >#03A9F4</item>
+        <item >#00BCD4</item>
+        <item >#009688</item>
+
+        <item >#4CAF50</item>
+        <item >#FF9800</item>
+        <item >#FF5722</item>
+        <item >#795548</item>
+        <item >#607D8B</item>
+    </string-array>
+
+    <color name="nliveo_white">#ffffff</color>
+    <color name="nliveo_grey">#e0e0e0</color>
+    <color name="nliveo_black">#000000</color>
+    <color name="nliveo_transparent">#00000000</color>
+
+    <color name="nliveo_blue_colorPrimary">#2196F3</color>
+    <color name="nliveo_blue_colorPrimaryDark">#1976D2</color>
+    <color name="nliveo_blue_alpha_colorPrimaryDark">#801976D2</color>
+
+    <color name="nliveo_green_colorPrimary">#4CAF50</color>
+    <color name="nliveo_green_colorPrimaryDark">#388E3C</color>
+    <color name="nliveo_green_alpha_colorPrimaryDark">#80388E3C</color>
+
+    <color name="nliveo_red_colorPrimary">#F44336</color>
+    <color name="nliveo_red_colorPrimaryDark">#D32F2F</color>
+    <color name="nliveo_red_alpha_colorPrimaryDark">#80D32F2F</color>
+
+    <color name="nliveo_indigo_colorPrimary">#3F51B5</color>
+    <color name="nliveo_indigo_colorPrimaryDark">#30379F</color>
+    <color name="nliveo_indigo_alpha_colorPrimaryDark">#8030379F</color>
+
+    <color name="nliveo_orange_colorPrimary">#FF9800</color>
+    <color name="nliveo_orange_colorPrimaryDark">#F57C00</color>
+    <color name="nliveo_orange_alpha_colorPrimaryDark">#80F57C00</color>
+
+    <color name="nliveo_lime_colorPrimary">#CDDC39</color>
+    <color name="nliveo_lime_colorPrimaryDark">#AFB42B</color>
+    <color name="nliveo_lime_alpha_colorPrimaryDark">#80AFB42B</color>
+
+    <color name="nliveo_cyan_colorPrimary">#00BCD4</color>
+    <color name="nliveo_cyan_colorPrimaryDark">#0097A7</color>
+    <color name="nliveo_cyan_alpha_colorPrimaryDark">#800097A7</color>
+
+    <color name="nliveo_brown_colorPrimary">#795548</color>
+    <color name="nliveo_brown_colorPrimaryDark">#5D4037</color>
+    <color name="nliveo_brown_alpha_colorPrimaryDark">#805D4037</color>
+
+    <color name="nliveo_teal_colorPrimary">#009688</color>
+    <color name="nliveo_teal_colorPrimaryDark">#00796B</color>
+    <color name="nliveo_teal_alpha_colorPrimaryDark">#8000796B</color>
+
+    <color name="nliveo_blue_grey_colorPrimary">#607D8B</color>
+    <color name="nliveo_blue_grey_colorPrimaryDark">#80455A64</color>
+    <color name="nliveo_blue_grey_alpha_colorPrimaryDark">#80455A64</color>
+
+    <color name="nliveo_purple_colorPrimary">#1999D7</color>
+    <color name="nliveo_purple_colorPrimaryDark">#1999D7</color>
+    <color name="nliveo_purple_alpha_colorPrimaryDark">#1999D7</color>
+
+
+    <color name="textSub">#76818a</color>
+    <color name="Tex">#404547</color>
+    <color name="White">#fff</color>
+
+
+    <color name="colordevider">#f1f2f4</color>
+    <color name="colorbutton">#ff5254</color>
+    <color name="iconcolour">#9ba4ab</color>
+    <color name="strok">#e4e5ea</color>
+
+
+    <color name="green">#5ccc78</color>
+    <color name="red">#ea495f</color>
+    <color name="yellow">#f8d64e</color>
+    <color name="light_green">#1bac94</color>
+
+</resources>

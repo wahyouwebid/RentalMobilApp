@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+
+        >
+        <!--<TextView-->
+            <!--android:layout_weight="1"-->
+            <!--android:id="@+id/kode_transaksi"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Kode Transaksi"-->
+            <!--/>-->
+        <!--<TextView-->
+            <!--android:layout_weight="1"-->
+            <!--android:id="@+id/tanggal_pesanan"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Tanggal"-->
+            <!--android:textAlignment="textEnd"-->
+            <!--/>-->
+        <!--<TextView-->
+            <!--android:id="@+id/nama_pemesan"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Nama Pemesan"-->
+            <!--android:layout_weight="1"-->
+            <!--/>-->
+        <!--android:background="#479bda"-->
+        <LinearLayout
+            android:id="@+id/bg_transaksi"
+            android:padding="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#479bda"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/kode_transaksi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kode Transaksi"
+                    android:textColor="@color/white"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/tanggal_pesanan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tanggal"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/white"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginBottom="10sp"
+                android:background="#bebebe"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:id="@+id/nama_pemesan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Pemesan"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+
+                    />
+                <TextView
+                    android:id="@+id/total_transaksi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Total"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/white"
+
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+
